@@ -4,7 +4,7 @@ A Python and SQL pipeline that pulls ten years of daily price history for ten la
 
 I'm a data analyst based in Lagos, Nigeria, working across Python, SQL, and Power BI. This one started as a simple "which stocks in my watchlist are doing well" question and turned into a proper test of whether a forecasting model actually earns its place in the dashboard, or whether it's just adding noise. The honest answer turned out to be more interesting than a clean success story.
 
-**Contact:** oluwafikayore@gmail.com
+**Contact:** danolatunji25@gmail.com
 
 ---
 
@@ -203,7 +203,7 @@ Python (pandas, NumPy, statsmodels, yfinance, SQLAlchemy), PostgreSQL, Power BI,
 
 ## About me
 
-I'm Daniel Olatunji, a data analyst working across Python, SQL, Power BI, Excel, and Power Query, with a focus on data quality and building analytics people can actually trust. If you're hiring for a data analyst, BI developer, or analytics engineering role and want to talk through this build, including the three claims I had to walk back, reach me at **oluwafikayore@gmail.com**.
+I'm Daniel Olatunji, a data analyst working across Python, SQL, Power BI, Excel, and Power Query, with a focus on data quality and building analytics people can actually trust. If you're hiring for a data analyst, BI developer, or analytics engineering role and want to talk through this build, including the three claims I had to walk back, reach me at **danolatunji25@gmail.com**.
 
 More of my work:
 - [Everdale Retail Analytics](https://github.com/oreoluwadaniel/everdale-retail-analytics) - Excel/Power Query retail intelligence build, 194K order lines
