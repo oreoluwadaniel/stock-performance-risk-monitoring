@@ -1,4 +1,4 @@
-# Stock Watchlist Analytics — Insights Memo
+# Stock Watchlist Analytics: Insights Memo
 
 **Snapshot:** 2026-07-07  
 **Scope:** 10 US large-cap equities across five sectors  
