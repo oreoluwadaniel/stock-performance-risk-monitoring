@@ -1,0 +1,20 @@
+Check,Result,Status
+Raw rows,21380,PASS
+Tickers,10,PASS
+Rows per ticker,2138,PASS
+Raw missing fields,0,PASS
+"Duplicate (Date,Ticker)",0,PASS
+"Processed duplicate (date,ticker)",0,PASS
+Processed null price fields,0,PASS
+Non-positive adjusted prices,0,PASS
+Zero-volume processed rows,0,PASS
+Maximum absolute daily log return,25.33,PASS
+Historical start,2018-01-02,PASS
+Historical end,2026-07-07,PASS
+ARIMA average MAPE,5.732,DOCUMENTED
+Naive average MAPE,5.716,DOCUMENTED
+Average ARIMA skill vs naive,-0.328,DOCUMENTED
+XOM-CVX return correlation,0.843,DOCUMENTED
+Latest vol above own median,10,DOCUMENTED
+Project-author name in repository text,0,PASS
+Project-author contact/URL patterns in repository text,0,PASS

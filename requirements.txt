@@ -1,0 +1,10 @@
+yfinance
+pandas
+numpy
+sqlalchemy
+psycopg2-binary
+matplotlib
+seaborn
+statsmodels
+pandas-market-calendars
+python-dotenv

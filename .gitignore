@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets
+.env
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Internal planning notes, not part of the public repo
+docs/publishing_checklist.md
+docs/expected_additions.md
+
+# Generated runtime files (future pipeline re-runs) - keep the committed snapshot below
+data/raw/prices_raw_*.csv
+!data/raw/prices_raw_20260707.csv

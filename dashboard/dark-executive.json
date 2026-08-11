@@ -1,0 +1,7 @@
+{
+  "name": "Dark Executive",
+  "dataColors": ["#F2994A", "#E0E0E0", "#7A7A7A", "#4F4F4F", "#27AE60", "#E74C3C"],
+  "background": "#1A1A1A",
+  "foreground": "#E0E0E0",
+  "tableAccent": "#F2994A"
+}
