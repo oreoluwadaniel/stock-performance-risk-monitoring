@@ -1,9 +1,3 @@
--- ============================================================
--- 01_create_schema.sql
--- Run FIRST, once, in pgAdmin Query Tool on database: stock_analytics
--- Star schema: 2 dimensions, 2 fact tables.
--- ============================================================
-
 CREATE TABLE dim_ticker (
     ticker_key     SERIAL PRIMARY KEY,          -- surrogate key, auto-increment
     ticker         VARCHAR(10) NOT NULL UNIQUE,
