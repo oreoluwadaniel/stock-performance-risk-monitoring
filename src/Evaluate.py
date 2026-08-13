@@ -1,11 +1,3 @@
-"""
-evaluate.py  (STEP 6, analysis artifact, not part of the daily refresh)
-Walk-forward backtest: at each of 5 historical cutoffs, train ARIMA on
-data up to the cutoff, forecast 30 trading days, score vs actuals, and
-compare against the naive (last value) baseline.
-Run from inside src/:  python evaluate.py
-"""
-
 import warnings
 import numpy as np
 import pandas as pd
