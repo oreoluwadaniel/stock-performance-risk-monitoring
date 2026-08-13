@@ -11,8 +11,6 @@ Cleaning decisions (documented, with reasons):
 - Missing weekends/holidays: left alone. Markets were closed. Not missing data.
 - Extreme returns (e.g. March 2020): KEPT. In finance, outliers are the story.
 
-Run from the PROJECT ROOT:
-    python src/transform.py
 """
 
 import glob
