@@ -1,5 +1,5 @@
 """
-forecast.py  (STEP 5 of the pipeline)
+STEP 5 of the pipeline
 Fits ARIMA per ticker on log adjusted close, selects (p,q) by AIC,
 forecasts 30 trading days with 95% intervals, and writes results
 into fact_forecasts in PostgreSQL.
