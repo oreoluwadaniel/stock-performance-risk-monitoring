@@ -1,12 +1,3 @@
-"""
-run_pipeline.py
-One command refreshes the entire project (a Milestone 1 success metric):
-    extract -> transform (clean + validate) -> load to PostgreSQL
-
-Run from the PROJECT ROOT:
-    python src/run_pipeline.py
-"""
-
 import extract
 import transform
 import load_db
