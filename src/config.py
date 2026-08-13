@@ -1,7 +1,3 @@
-"""
-config.py
-All project settings live here. Change things ONCE, in this file only.
-"""
 
 import os
 from dotenv import load_dotenv
@@ -33,7 +29,4 @@ RAW_DIR = "data/raw"
 PROCESSED_DIR = "data/processed"
 CLEAN_FILE = f"{PROCESSED_DIR}/prices_clean.csv"
 
-# ---------------- Database ----------------
-# Set DATABASE_URL in a local .env file (see .env.example). Never hard-code
-# credentials here.
 DB_URL = os.environ["DATABASE_URL"]
