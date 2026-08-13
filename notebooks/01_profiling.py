@@ -1,19 +1,9 @@
-# %% [markdown]
-# # 01 - Data Profiling (Milestone 5, Step 1)
-# Profile the RAW data before deciding how to clean it.
-# Run with "Run Cell" above each # %% marker (Jupyter extension),
-# OR run the whole file: python notebooks/01_profiling.py
-# Do NOT use the Code Runner extension on this file.
-
-# %%
 import glob
 from pathlib import Path
 import pandas as pd
 
 pd.set_option("display.width", 120)
 
-# Find the data/raw folder no matter where VS Code runs this from.
-# Walks upward from the current working directory until it finds it.
 def find_raw_dir() -> Path:
     for base in [Path.cwd(), *Path.cwd().parents]:
         candidate = base / "data" / "raw"
@@ -61,10 +51,3 @@ print(aapl[(aapl["Date"] >= "2020-08-25") & (aapl["Date"] <= "2020-09-04")][
     ["Date", "Close", "Adj Close"]
 ])
 
-# %% [markdown]
-# ## Profiling conclusions (edit with YOUR findings)
-# - Duplicates: ___
-# - Nulls: ___ (which columns, which tickers, isolated or leading?)
-# - Zero-volume rows: ___
-# - Coverage: all 10 tickers aligned? ___
-# These findings justify every decision coded in src/transform.py.
