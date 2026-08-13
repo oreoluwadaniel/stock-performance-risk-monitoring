@@ -6,8 +6,6 @@ immutable, date-stamped raw CSV in data/raw/.
 Full re-pull every run (not incremental) because Adjusted Close is
 retroactive: dividends and splits change historical values.
 
-Run from the PROJECT ROOT:
-    python src/extract.py
 """
 
 import yfinance as yf
