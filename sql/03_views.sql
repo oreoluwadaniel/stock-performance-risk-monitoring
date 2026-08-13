@@ -1,10 +1,3 @@
--- ============================================================
--- 03_views.sql
--- Run THIRD (any time after 01). Power BI connects to VIEWS, never raw tables.
--- The view is the contract between the database and the dashboard.
--- ============================================================
-
--- Flat, human-readable price view
 CREATE OR REPLACE VIEW vw_prices AS
 SELECT
     d.full_date, d.year, d.month_name, d.quarter,
