@@ -33,8 +33,3 @@ The Power BI layer should support:
 - historical performance comparison,
 - model-quality monitoring.
 
-## Important boundary
-
-This is a monitoring and analytics system.
-
-It should **not** be marketed as an automated trading strategy, investment adviser or guaranteed forecasting engine.
