@@ -1,19 +1,3 @@
-"""
-load_db.py  (STEP 3 of the pipeline)
-Loads the clean CSV into PostgreSQL:
-  1. dim_ticker      (inserted once, skipped if already populated)
-  2. fact_daily_prices (TRUNCATE + full reload every run, inside a transaction,
-                        because Adj Close is retroactive)
-  3. dim_date.is_trading_day flags updated from actual price dates
-
-PREREQUISITES (run once in pgAdmin, in this order):
-  sql/01_create_schema.sql
-  sql/02_populate_dim_date.sql
-
-Run from the PROJECT ROOT:
-    python src/load_db.py
-"""
-
 import pandas as pd
 from sqlalchemy import create_engine, text
 
